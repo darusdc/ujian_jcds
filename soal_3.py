@@ -28,4 +28,4 @@ def Sort_odd_even(x=list):
                     odd.pop(0)
                 even_list.pop(0)
     return result
-print(Sort_odd_even([5,3,2,8,1,4]))
+print(Sort_odd_even([3,5,2,8,1,4]))
