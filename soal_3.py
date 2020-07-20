@@ -18,7 +18,6 @@ def Sort_odd_even(x=list):
                 else:    
                     result.append(even[0])
                     even.pop(0)
-                    even_list.pop(0)
                 odd_list.pop(0)
         if len(even_list)>0:
             if i==even_list[0]:
@@ -27,7 +26,6 @@ def Sort_odd_even(x=list):
                 else:
                     result.append(odd[0])
                     odd.pop(0)
-                    odd_list.pop(0)
                 even_list.pop(0)
     return result
 print(Sort_odd_even([5,3,2,8,1,4]))
